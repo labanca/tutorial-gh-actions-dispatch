@@ -1,4 +1,4 @@
-name: Workflow Dispatch Choice Input Example
+name: Workflow Dispatch Freeform Input Example
 
 on:
   workflow_dispatch:
@@ -6,7 +6,8 @@ on:
       environment:
         description: 'The environment to deply to'
         required: true
-        type: environment
+        default: 'production'
+        
 
 jobs:
   deploy:
