@@ -6,7 +6,7 @@ on:
       environment:
         description: 'The environment to deply to'
         required: true
-        default: 'production'
+        type: environment
         
 
 jobs:
